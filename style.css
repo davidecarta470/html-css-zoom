@@ -12,7 +12,7 @@ body{
   color: rgb(0, 218, 0);
   cursor: pointer;
 }
-.angle-up,.nav.right{
+.angle-up,.nav.right, .item{
   cursor: pointer;
 }
 /* ****************************** */
@@ -42,11 +42,12 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: start;
   overflow: auto;
 }
 main .item{
   position:relative;
-  padding:2px;
+  padding:2px 4px;
   align-self: flex-start;
 }
 main .mic{
