@@ -7,6 +7,17 @@ body{
   background-color:black;
   font-family: 'Roboto', sans-serif;
 }
+/* hover */
+.nav .clm:hover,.angle-up:hover i[class*="fa-angle-up"],header .view:hover{
+  color: rgb(0, 218, 0);
+  cursor: pointer;
+}
+.angle-up{
+  cursor: pointer;
+}
+/* ****************************** */
+
+
 header{
   height: 40px;
   display:flex;
@@ -21,6 +32,8 @@ header{
   margin : 5px;
   border-radius:5px;
 }
+
+
 
 /* MAIN */
 main{
@@ -52,11 +65,12 @@ footer{
   background-color:#222222;
   display: flex;
   justify-content:space-between;
+  padding: 0px 5px;
 }
 
 /* nav global */
 .nav{
-   color:white;
+  color:white;
   display: flex;
   justify-content: space-between;
 }
@@ -68,14 +82,12 @@ footer{
 }
 .nav .clm i{
   font-size: 20px;
-  text-align: center;
 }
 .nav .clm div:last-child{
   font-size: 10px;
 }
 .nav .angle-up{
-  display: flex;
-  
+  align-self: center;
 }
 
 /* for all angle up */
