@@ -12,7 +12,7 @@ body{
   color: rgb(0, 218, 0);
   cursor: pointer;
 }
-.angle-up{
+.angle-up,.nav.right{
   cursor: pointer;
 }
 /* ****************************** */
@@ -73,6 +73,7 @@ footer{
   color:white;
   display: flex;
   justify-content: space-between;
+ 
 }
 .nav .clm{
  display:flex ;
@@ -86,14 +87,12 @@ footer{
 .nav .clm div:last-child{
   font-size: 10px;
 }
-.nav .angle-up{
-  align-self: center;
-}
+
 
 /* for all angle up */
 i[class*="fa-angle-up"] {
   font-size: 10px;
-  align-self: center;
+  line-height: 60px;
 }
 
 /* nav left */
